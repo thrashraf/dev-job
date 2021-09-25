@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/Dev-Job-WebApp/static/css/main.0ce4bd49.chunk.css",
-    "main.js": "/Dev-Job-WebApp/static/js/main.86e44003.chunk.js",
-    "main.js.map": "/Dev-Job-WebApp/static/js/main.86e44003.chunk.js.map",
+    "main.js": "/Dev-Job-WebApp/static/js/main.78f81075.chunk.js",
+    "main.js.map": "/Dev-Job-WebApp/static/js/main.78f81075.chunk.js.map",
     "runtime-main.js": "/Dev-Job-WebApp/static/js/runtime-main.0796b4ae.js",
     "runtime-main.js.map": "/Dev-Job-WebApp/static/js/runtime-main.0796b4ae.js.map",
-    "static/js/2.40e947b8.chunk.js": "/Dev-Job-WebApp/static/js/2.40e947b8.chunk.js",
-    "static/js/2.40e947b8.chunk.js.map": "/Dev-Job-WebApp/static/js/2.40e947b8.chunk.js.map",
+    "static/js/2.6c3c915c.chunk.js": "/Dev-Job-WebApp/static/js/2.6c3c915c.chunk.js",
+    "static/js/2.6c3c915c.chunk.js.map": "/Dev-Job-WebApp/static/js/2.6c3c915c.chunk.js.map",
     "index.html": "/Dev-Job-WebApp/index.html",
     "static/css/main.0ce4bd49.chunk.css.map": "/Dev-Job-WebApp/static/css/main.0ce4bd49.chunk.css.map",
-    "static/js/2.40e947b8.chunk.js.LICENSE.txt": "/Dev-Job-WebApp/static/js/2.40e947b8.chunk.js.LICENSE.txt",
+    "static/js/2.6c3c915c.chunk.js.LICENSE.txt": "/Dev-Job-WebApp/static/js/2.6c3c915c.chunk.js.LICENSE.txt",
     "static/media/Layout.module.css": "/Dev-Job-WebApp/static/media/bg-pattern-header.f3307602.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.0796b4ae.js",
-    "static/js/2.40e947b8.chunk.js",
+    "static/js/2.6c3c915c.chunk.js",
     "static/css/main.0ce4bd49.chunk.css",
-    "static/js/main.86e44003.chunk.js"
+    "static/js/main.78f81075.chunk.js"
   ]
 }
