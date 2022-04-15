@@ -1,0 +1,91 @@
+.FullJob {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    min-height: 100vh;
+
+}
+
+.FullJob a {
+    text-decoration: none;
+}
+
+
+article.Job {
+    background-color: #fff;
+    margin: 0 10% 50px 10%;
+    padding: 0 5%;
+    border-radius: 10px;
+    position: relative;
+}
+
+.Container {
+    position: relative;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+
+.logo img{
+    
+    width: 35px;
+    height: 30px;
+    padding: 10px 7px;
+    margin: auto;
+    border-radius: 10px;
+    object-fit: contain;
+   
+    
+}
+
+.JobDesc {
+    display: flex;
+}
+
+.JobDesc p:first-child {
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 19px;
+    margin: 0 0 10px 0;
+    
+}
+
+.JobLocation {
+    margin-top: 40px;
+    display: block;
+}
+
+p {
+    color: darkgray;
+}
+
+.JobLocation p:last-child {
+    color: royalblue;
+    font-weight: 600;
+}
+
+@media (min-width: 601px) {
+    .FullJob {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 5%;
+        margin: 0 10%;
+        
+    }
+
+    article.Job {
+    
+        margin: 0 0 10% 0;
+    }
+}
+
+@media (min-width: 1201px) {
+    .FullJob {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 2%;
+        grid-template-rows: 270px;
+    }
+}

@@ -1,0 +1,108 @@
+.Control {
+    background-color: #fff;
+    display: flex;
+    position: relative;
+    bottom: 30px;
+    margin: 0 10%;
+    border-radius: 10px;
+}
+
+.ControlMobile {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    padding: 20px;
+}
+
+.Control input {
+    border: 1px solid #fff;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.Control img {
+    width: 20px;
+}
+
+.Control button {
+    background-color: #fff;
+    border: 1px solid #fff;
+    border: none;
+}
+
+.Control button:last-child {
+    border: 1px solid #5964e0;
+    background-color: #5964e0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    
+}
+
+.ControlDesktop {
+    display: none;
+}
+
+@media (min-width: 901px) {
+    .ControlMobile {
+        display: none;
+    }
+
+    .ControlDesktop {
+        display: flex;
+        width: 100%;
+        
+    }
+
+    .ControlDesktop .Search {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 30px 70%;
+        width: 33.33%;
+        grid-column-gap: 20px;
+        border-right: 1px solid #ccc;
+        padding: 20px;
+    }
+
+    .ControlDesktop .Location {
+        text-align: center;
+        width: 33.33%;
+        display: grid;
+        grid-template-columns: 30px 70%;
+        grid-column-gap: 20px;
+        border-right: 1px solid #ccc;
+        padding: 20px;
+    }
+
+    .ControlDesktop .FullTime {
+        text-align: center;
+        display: grid;
+        width: 33.33%;
+        padding: 25px 20px;
+        grid-template-columns: 30px 100px;
+    }
+
+
+    .FullTime input {
+        width: 20px;
+        height: 20px;
+        font-size: 22px;
+    }
+
+    .FullTime p {
+        margin: 0;
+    }
+
+    .ControlDesktop img {
+        width: 30px;
+    }
+
+    .ControlDesktop input {
+        font-size: 16px;
+        border: none;
+    }
+
+
+}
